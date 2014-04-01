@@ -74,7 +74,7 @@ function SetLanguage(lang) {
         }
     });
 }
-/* --------------- */
+
 function CalculatePercentage(valueColor, valueTotal) {
     return valueColor * 100 / valueTotal;
 }
