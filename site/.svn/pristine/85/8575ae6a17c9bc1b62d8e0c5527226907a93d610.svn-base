@@ -1,0 +1,28 @@
+﻿/*  Page/Test.aspx  */
+function SetColorInBar(cRed, cBlue, cGreen) {
+    $("#sectorRed").css({
+        'width': '' + cRed + '%'
+    });
+    $("#sectorBlue").css({
+        'width': '' + cBlue + '%'
+    });
+    $("#sectorGreen").css({
+        'width': '' + cGreen + '%'
+    });
+}
+
+function ShowPercentage(cRed, cBlue, cGreen) {
+    // Red        
+    $("#lblBarRed").text(parseFloat(cRed).toFixed(2) + '%');
+    $("#hdnLblBarRed").val(parseFloat(cRed).toFixed(2));
+    // Blue
+    $("#lblBarBlue").text(parseFloat(cBlue).toFixed(2) + '%');
+    $("#hdnLblBarBlue").val(parseFloat(cBlue).toFixed(2));
+    // Green
+    $("#lblBarGreen").text(parseFloat(cGreen).toFixed(2) + '%');
+    $("#hdnLblBarGreen").val(parseFloat(cGreen).toFixed(2));
+}
+/* --------------- */
+function CalculatePercentage(valueColor, valueTotal) {
+    return valueColor * 100 / valueTotal;
+}
