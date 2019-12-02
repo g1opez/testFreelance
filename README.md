@@ -1,9 +1,8 @@
-Project: testFreelance
-=============
-This project refers to work I done a while ago. 
-Is done with javascript and C #, using Ajax and postback. 
-The idea is to manage "post" with ajax in the same page.
+# Project: testFreelance
 
+This project is about work that I did a while ago.
+It was done with javascript and C#, applying Ajax and postback.
+The main idea is to manage the "POST" verb with ajax on the same page.
 
 Regards
-      Gustavo
+Gustavo
